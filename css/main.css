@@ -34,12 +34,13 @@ body {
 	}
 	#gallery img{
 		width: 100%;
-		margin: 0;
-		padding: 0;
-		position: relative;
+		
 	}
 	.galleryimg{
 		opacity: 0;
+		margin: 0;
+		padding: 0;
+		position:absolute;
 	}
 	.active{
 		opacity: 1;
