@@ -5,6 +5,7 @@ window.onload=function(){
 	for(var i=0;i<imglist.length;i++){
 		imglist[i].name=i;
 	}
+	window.setInterval(nextimg,3000);
 }
 function preimg(){
 	var current=document.getElementsByClassName("active")[0];
@@ -19,7 +20,4 @@ function nextimg(){
 	current.className="galleryimg";
 	imgList[(parseInt(current.name)+1)%5].classList="galleryimg active";
 	console.log("toggle success");
-}
-function auto(){
-	window.setInterval(nextimg(),1000);
 }
