@@ -23,7 +23,7 @@ body {
 		font-family: "STXingkai";
 	    line-height: 100%;
 	}
-	.gallery{
+	#gallery{
 		height:720px;
 		overflow: hidden;
 		width: 100%;
@@ -32,15 +32,17 @@ body {
 		padding: 0;
 		position: relative;
 	}
-	.gallery img{
+	#gallery img{
 		width: 100%;
 		margin: 0;
 		padding: 0;
 		position: relative;
 	}
-	.gallery img:first-child{
-		top: -900px;
-		
+	.galleryimg{
+		opacity: 0;
+	}
+	.active{
+		opacity: 1;
 	}
 	.pre,.after{
 		top: 450px;
