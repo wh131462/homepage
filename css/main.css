@@ -1,7 +1,7 @@
 body {
             margin: 0;
             padding: 0;
-			overflow-x: hidden;
+			/* overflow-x: hidden; */
         }
 
 /* PC size*/
@@ -29,7 +29,8 @@ body {
 		position: absolute;
 		right: 0;
 		top: 35px;
-		margin-right: -200px;
+		overflow: hidden;
+		/* margin-right: -200px; */
 	}
 	.foot {
 	    position: fixed;
@@ -318,8 +319,7 @@ body {
 	#weather{
 		position: absolute;
 		right: 0;
-		top: 253px;
-		margin-right: -200px;
+		top: 255px;
 	}
 	.foot {
 	    position: fixed;
