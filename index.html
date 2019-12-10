@@ -62,13 +62,24 @@
 			</div>
 		   
 			<div class="void"></div>
+			<div class="tips">
+				<p>联系我们</p>
+			</div>
 		</div>
 		<div class="foot">
 			<small>
 				<p>Copyright &copy; 2019 GXUST-YiBanTechGroup |All Rights Reserved|<a href="mailto:TechGroup@gxust-yiban.com?Subject=subinfo&body=hello"
-					 style="text-decoration:none; ">联系我们</a></p>
+					 style="text-decoration:none; ">联系我们</a><span id="pv"> pv:0</span><span id="uv"> uv:0</span></p>
 			</small>
 		</div>
-		
+		<script type="text/javascript">
+			// 记录pv uv ip
+				var pv,ip,uv;
+				fetch('https://gxust-yiban.com/php/pv_uv.php?website='+location.href)
+							  .then(function(res){return res.json()})
+							  .then(function(data){})
+							  .catch(function(err){})
+			</script>
+		</script>
 	</body>
 </html>
