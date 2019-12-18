@@ -100,10 +100,10 @@ body {
 		display: inline-block;
 	    width: 15vw;
 	    height: 15vw;
-	    background-color: brown;
+	    background-color:#FFF;
 		overflow: hidden;
 	    margin-left: 8vw;
-		margin-top: 15px;
+		margin-top: 30px;
 		border: #FFF solid 0px;
 		border-radius: 50%;
 		box-shadow: #000000 0px 0px 5px; 
@@ -265,9 +265,10 @@ body {
 		display: inline-block;
 	    width: 15vw;
 	    height: 15vw;
-	    background-color: brown;
+	    background-color: #FFF;
 		overflow: hidden;
 	    margin-left: 8vw;
+		margin-top: 30px;
 		border: #FFF solid 0px;
 		border-radius: 50%;
 		box-shadow: #000000 0px 0px 5px; 
@@ -419,7 +420,7 @@ body {
 		
 	}
 	.main{
-		min-height:720px;
+		min-height:860px;
 		background:  linear-gradient(to right,#e66465, #9198e5);
 	}
 	.content{
@@ -430,9 +431,10 @@ body {
 		display: inline-block;
 	    width: 15vw;
 	    height: 15vw;
-	    background-color: brown;
+	    background-color:#FFF;
 		overflow: hidden;
 	    margin-left: 8vw;
+		margin-top: 5px;
 		border: #FFF solid 0px;
 		border-radius: 50%;
 		box-shadow: #000000 0px 0px 5px; 
