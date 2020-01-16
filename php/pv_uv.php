@@ -8,8 +8,8 @@ if($_SERVER["REQUEST_METHOD"]=="GET"&&$_GET["website"]!=null){
 	$PUI=['PV'=>$res["PV"],'UV'=>$res["UV"],"IP"=>$res["IP"]];
 	$ip=$_SERVER["REMOTE_ADDR"];//用户ip
 	$PV=$PUI["PV"]++; 
-	$UV=$PUI["UV"]; 
-	$IP=$PUI["IP"];
+	$UV=$PUI["UV"]==null?1:$PUI["UV"]++; 
+	$IP=$PUI["IP"]==null?1:$PUI["IP"]++;
 	$ADD="INSERT INTO PV_UV (PV,UV,IP) VALUES('$PV','$UV',''$IP');";
 }else{
 	echo "您正在进行的是非法访问，将进行强制退出!";

@@ -7,12 +7,17 @@ body {
 /* PC size*/
 @media screen and (min-width:768px) {
 	.banner {
+		opacity: 0;
 	    position: absolute;
 	    top: 0;
+		z-index: 3;
 	    width: 100%;
 	    height: 90px;
-		background: linear-gradient(to right,#e66465, #9198e5) ;
+		background: linear-gradient(to right,#EEE, #FFF) ;
 	    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7);
+	}
+	.banner:hover{
+		opacity: 1;
 	}
 	.banner img{
 	    float: left;
@@ -21,11 +26,11 @@ body {
 	    margin: 0 5px;
 	}
 	.banner p {
-		color: rgba(255,255,255,0.7);
+		color:rgba(0,0,0,0.4);
 		font-size: 1.8rem;
 		font-family: "STXingkai";
 	    line-height: 100%;
-		text-shadow: #AAA 1px 0px 1px;
+		/* text-shadow: #AAA 1px 0px 1px; */
 	}
 	#weather{
 		position: absolute;
@@ -49,14 +54,12 @@ body {
 		overflow: hidden;
 		width: 100%;
 		margin: 0;
-		margin-top: 90px;
 		padding: 0;
 		position: relative;
 	}
 	#gallery img{
 		height: 720px;
 		width: 100%;
-		
 	}
 	.galleryimg{
 		opacity: 0;
@@ -69,7 +72,7 @@ body {
 		transition:ease-in 1s; 
 	}
 	.pre,.after{
-		top: 450px;
+		top: 360px;
 		width: 50px;
 		height: 50px;
 		margin-top: -25px;
@@ -131,7 +134,7 @@ body {
 	}
 	.box img{
 		width: 100%;
-		border: #FFF solid 1px;
+		height: 100%;
 		border-radius: 50%;
 		position: absolute;
 	}
@@ -174,12 +177,16 @@ body {
 /* taplap size*/
 @media screen and (min-width:426px) and (max-width:768px){
 	.banner {
+		opacity: 0;
 	    position: absolute;
 	    top: 0;
 	    width: 100%;
 	    height: 90px;
-		background: linear-gradient(to right,#e66465, #9198e5) ;
+		background: linear-gradient(to right,#EEE, #FFF) ;
 	    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7);
+	}
+	.banner:hover{
+		opacity: 1;
 	}
 	.banner img{
 	    float: left;
@@ -188,7 +195,7 @@ body {
 	    margin: 0 5px;
 	}
 	.banner p {
-		color: rgba(255,255,255,0.7);
+		color: rgba(0,0,0,0.4);
 		text-shadow: #AAA 1px 0px 1px;
 		font-size: 1.8rem;
 		font-family: "STXingkai";
@@ -214,7 +221,6 @@ body {
 		overflow: hidden;
 		width: 100%;
 		margin: 0;
-		margin-top: 90px;
 		padding: 0;
 		position: relative;
 	}
@@ -234,7 +240,7 @@ body {
 		transition:ease-in 1s; 
 	}
 	.pre,.after{
-		top: 450px;
+		top: 360px;
 		width: 50px;
 		height: 50px;
 		margin-top: -25px;
@@ -297,7 +303,7 @@ body {
 	}
 	.box img{
 		width: 100%;
-		border: #FFF solid 1px;
+		height: 100%;
 		border-radius: 50%;
 		position: absolute;
 	}
@@ -339,12 +345,16 @@ body {
 /* phone size*/
 @media screen and (max-width:426px){
 	.banner {
+		opacity: 0;
 	    position: absolute;
 	    top: 0;
 	    width: 100%;
 	    height: 40px;
-		background: linear-gradient(to right,#e66465, #9198e5) ;
+		background: linear-gradient(to right,#4f4f4f, #4f4f4f) ;
 	    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7);
+	}
+	.banner:hover{
+		opacity: 1;
 	}
 	.banner img{
 	    float: left;
@@ -380,7 +390,6 @@ body {
 		overflow: hidden;
 		width: 100%;
 		margin: 0;
-		margin-top: 40px;
 		padding: 0;
 		position: relative;
 		background: #000;
@@ -400,10 +409,10 @@ body {
 		transition:ease-in 1s; 
 	}
 	.pre,.after{
-		top: 150px;
+		top: 105px;
 		width: 30px;
 		height: 30px;
-		margin-top: -25px;
+		margin-top: -15px;
 		background:rgba(255,255,255,0.6);
 		text-align: center;
 		position: absolute;
@@ -463,7 +472,7 @@ body {
 	}
 	.box img{
 		width: 100%;
-		border: #FFF solid 1px;
+		height: 100%;
 		border-radius: 50%;
 		position: absolute;
 	}
