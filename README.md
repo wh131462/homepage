@@ -1,2 +1,2 @@
 # homepage
-gxust-yiban.com home page.
+[已废弃]易班首页，设计较差，内部有轮播图的实现代码，还有flex布局的按钮网格排布。
